@@ -1,0 +1,41 @@
+{
+    "name": "mainserver",
+    "version": "1.0.0",
+    "description": "The main api server for reelitin SIH20",
+    "main": "index.js",
+    "scripts": {
+        "test": "nodemon index.js",
+	"start": "mode index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/breakp0int-SIH20/reelitinMain.git"
+    },
+    "keywords": [
+        "node",
+        "api",
+        "rest",
+        "jwt",
+        "mails"
+    ],
+    "author": "breakP0int",
+    "license": "GPL-3.0-or-later",
+    "bugs": {
+        "url": "https://github.com/breakp0int-SIH20/reelitinMain/issues"
+    },
+    "homepage": "https://github.com/breakp0int-SIH20/reelitinMain#readme",
+    "devDependencies": {
+        "eslint": "^6.8.0",
+        "eslint-config-prettier": "^6.9.0",
+        "eslint-plugin-prettier": "^3.1.2",
+        "esprima": "^4.0.1",
+        "prettier": "^1.19.1"
+    },
+    "dependencies": {
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^5.9.2",
+        "node-fetch": "^2.6.0"
+    }
+}
